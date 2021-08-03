@@ -1,6 +1,6 @@
 var ewtvideos = document.getElementsByTagName("video");
 var ewtvideo = ewtvideos[0];
-ewtvideo.playbackRate = 16;
+ewtvideo.playbackRate = 8;
 var video_rate = ewtvideo.playbackRate;
 var num_cycle = Math.ceil(ewtvideo.duration / 4 / video_rate);
 var num_now = 0;
